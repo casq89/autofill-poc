@@ -17,33 +17,33 @@
     <h2>Formulario de Contacto</h2>
 
     <form action="#" method="POST">
-        <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-        </div>
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="fname" autocomplete="given-name" placeholder="Tu nombre" required>
+    </div>
 
-        <div class="form-group">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
-        </div>
+    <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="lname" autocomplete="family-name" placeholder="Tu apellido" required>
+    </div>
 
-        <div class="form-group">
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
-        </div>
+    <div class="form-group">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="email" autocomplete="email" placeholder="ejemplo@correo.com" required>
+    </div>
 
-        <div class="form-group">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Ej: +34 600 000 000">
-        </div>
+    <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="tel" autocomplete="tel" placeholder="Ej: +34 600 000 000">
+    </div>
 
-        <div class="form-group">
-            <label for="cp">Código Postal:</label>
-            <input type="text" id="cp" name="cp" pattern="[0-9]{5}" title="Introduce 5 dígitos" placeholder="Ej: 28001">
-        </div>
+    <div class="form-group">
+        <label for="cp">Código Postal:</label>
+        <input type="text" id="cp" name="zip" autocomplete="postal-code" pattern="[0-9]{5}" placeholder="Ej: 28001">
+    </div>
 
-        <button type="submit">Enviar datos</button>
-    </form>
+    <button type="submit">Enviar datos</button>
+</form>
 
 </body>
 </html>
